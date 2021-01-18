@@ -21,21 +21,34 @@
     }
     &__list-link{
         color: $title;
-        padding-bottom: 1px;
+        padding-bottom: 0 2px 1px;
         transition: all .3s;
-        @extend %quicksand-400;
+        @extend %roboto-400;
         &:hover{
             color: $accent;
             border-bottom: 1px solid $accent;
-            @extend %quicksand-500;
+            @extend %roboto-700;
         }
     }
     &__list-link--active{
         color: $accent;
         border-bottom: 1px solid $accent;
-        @extend %quicksand-500;
+        @extend %roboto-700;
     }
 }
+
+.HOME__________SHOP__________PAGE__________BLOG_ {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(254, 62, 87);
+    font-weight: bold;
+    line-height: 1.2;
+    position: absolute;
+    left: 760.984px;
+    top: 45.4px;
+    z-index: 513;
+  }
+  
 
 .user-nav{
     display: flex;
